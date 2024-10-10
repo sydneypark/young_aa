@@ -1,0 +1,6 @@
+unique_name: BigQuery
+object_type: connection
+label: BigQuery
+as_connection: Postgres14
+database: atscale_data
+schema: atscale_data

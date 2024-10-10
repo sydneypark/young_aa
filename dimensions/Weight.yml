@@ -1,0 +1,24 @@
+unique_name: Weight
+object_type: dimension
+label: Weight
+is_degenerate: true
+
+hierarchies:
+
+  - unique_name: Weight
+    label: Weight
+    filter_empty: "yes"
+    folder: Product Attributes
+
+    levels:
+
+      - unique_name: Weight
+
+level_attributes:
+
+  - unique_name: Weight
+    label: Weight
+    dataset: factinternetsales
+    key_columns:
+      - weight
+    name_column: weight
